@@ -1,0 +1,91 @@
+/*CSS is written in rules. Each rule consists of a selector and a decoration block*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: Helvetica Neue,Arial;
+    font-size: 18px;
+}
+
+h1,h2 {
+    color: #008000;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.mainTxt { /*Class*/
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#authorTxt { /*ID*/
+    font-size: 22px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.container {
+    width: 1140px;
+    margin: 20px auto 0px auto /*margin: top right bottom left;*/
+}
+
+.blogPost {
+    /*background-color: #0000ff;*/
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.blogPost img {
+    height: 150px;
+    width: auto;
+}
+
+.otherPosts {
+    /*background-color: #00ff00;*/
+    width: 25%;
+    float: left;
+}
+
+.authorBox {
+    /*background-color: #ffff00;*/
+    border-top: 2px solid #7c7979;
+    padding-top: 20px;
+}
+
+.authorBox img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+}
+
+.other {
+    padding-bottom: 20px;
+}
+
